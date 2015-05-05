@@ -5,31 +5,50 @@ As Mentioned here: http://stackoverflow.com/questions/3524443/ups-developer-api-
 
 So you have to copy the following six files to the same folder
 
-$ mkdir ups_ship && cd ups_ship
-$ ls -1
+$mkdir ups_ship && cd ups_ship
+
+$ls -1
+
 common.xsd
+
 Error1.1.xsd
+
 IFWS.xsd
+
 ShipWebServiceSchema.xsd
+
 Ship.wsdl
+
 UPSSecurity.xsd
+
 $ wsimport.sh -verbose -keep -extension -target 2.0 Ship.wsdl
 
-Generated code:
+##Generated code:
 
 $ ls -1 com/ups/wsdl/xoltws/ship/v1/
+
 ShipAcceptErrorMessage.class
+
 ShipAcceptErrorMessage.java
+
 ShipConfirmErrorMessage.class
+
 ShipConfirmErrorMessage.java
+
 ShipmentErrorMessage.class
+
 ShipmentErrorMessage.java
+
 ShipPortType.class
+
 ShipPortType.java
+
 ShipService.class
+
 ShipService.java
 
-Now you can put all your *.class files in a package and use it in your project:
+
+## Now you can put all your *.class files in a package and use it in your project:
 
 $jar cvf com_ups_wsdl_xoltws_ship_v1.jar ./com/ups/wsdl/xoltws/ship/v1/*.class
 
