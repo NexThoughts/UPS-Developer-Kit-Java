@@ -52,13 +52,20 @@ ShipService.java
 
 $jar cvf com_ups_wsdl_xoltws_ship_v1.jar ./com/ups/wsdl/xoltws/ship/v1/*.class
 
-Your new jar:
+##Your new jar:
 
-$jar tf com_ups_wsdl_xoltws_ship_v1.jar
+##$jar tf com_ups_wsdl_xoltws_ship_v1.jar
 META-INF/
+
 META-INF/MANIFEST.MF
+
 com/ups/wsdl/xoltws/ship/v1/ShipAcceptErrorMessage.class
+
 com/ups/wsdl/xoltws/ship/v1/ShipConfirmErrorMessage.class
+
 com/ups/wsdl/xoltws/ship/v1/ShipmentErrorMessage.class
+
 com/ups/wsdl/xoltws/ship/v1/ShipPortType.class
+
 com/ups/wsdl/xoltws/ship/v1/ShipService.class
+
