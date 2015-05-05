@@ -69,3 +69,6 @@ com/ups/wsdl/xoltws/ship/v1/ShipPortType.class
 
 com/ups/wsdl/xoltws/ship/v1/ShipService.class
 
+
+
+End Point Urls:http://stackoverflow.com/questions/8894650/ups-api-php-end-point-url
